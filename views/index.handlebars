@@ -9,8 +9,8 @@
 		<input type="text" class="form-control" id="name" placeholder="The burger I want..."><button class="btn btn-default" type="button" id="submit">Order!!!</button>
 		</div>
 		
-	<div class="row"> <!-- burgers -->
-		<div class="col-sm-12 col-md-6 col-lg-6"> <!-- left column -->
+	<div class="row"> <!-- Burgers -->
+		<div class="col-sm-12 col-md-6 col-lg-6">
 			<h1 id="left">To Be Eaten...</h1>
 			{{#each burgers}}
 			{{#unless devoured}}
@@ -19,9 +19,9 @@
 			</div>
 			{{/unless}}
 			{{/each}}
-		</div> <!-- left column -->
+		</div>
 
-		<div class="col-sm-12 col-md-6 col-lg-6"> <!-- right column -->
+		<div class="col-sm-12 col-md-6 col-lg-6">
 			<h1 id="right">Already Devoured!</h1>
 			{{#each burgers}}
 			{{#if devoured}}
@@ -30,7 +30,7 @@
 			</div>
 			{{/if}}
 			{{/each}}
-		</div> <!-- right column -->
-	</div> <!-- burgers row -->
+		</div>
+	</div> 
 		<p class="footer"><a href="https://github.com/carolunita/Eat-da-Burger">GitHub</a></p>
-</div> <!-- container -->
+</div>
