@@ -1,0 +1,126 @@
+/* GENERAL */
+body {
+	font-family: "Mina", sans-serif;
+	font-size: 15px;
+	background: url(../img/Wood.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.container {
+	width: 85%;
+	margin: 25px auto;
+}
+
+.burgerblock {
+	margin: 10px 100px;
+	padding: 5px 10px 0px 10px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+/* MISCELLANEOUS */
+
+.form-control {
+	display: inline-block;
+	margin: 10px auto auto auto;
+	font-size: 15px;
+	width: 25px;
+	align-content: center;
+}
+
+button {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+	padding: 5px 10px;
+	font-size: 17px;
+	background-color:green;
+	color: white;
+	border-radius: 5px;
+}
+button:hover{
+	background-color: red;
+}
+
+/* IMAGES */
+
+.icon {
+	margin: 10px auto;
+}
+
+.tinyicon {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: -10px;
+	padding: 10px;
+	height: 50px;
+}
+
+.burgericon {
+	margin-bottom: 15px;
+}
+
+.img-responsive {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eaten {
+	filter: grayscale(100%);
+}
+
+/* HEADERS AND TEXT */
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	text-shadow: 2px 2px black;
+}
+
+h1#left, h1#right {
+	font-size: 40px;
+	color: blue;
+}
+
+h2 {
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 25px;
+	text-align: center;
+}
+
+h3 {
+	padding: 15px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}
+
+.instructions {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: 	black;
+	background-color: white;
+	border-radius: 15px;
+	opacity: 0.75;
+	padding: 10px;
+}
+
+.footer {
+	margin-top: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+a {
+	font-weight: bold;
+	color: red;
+}
