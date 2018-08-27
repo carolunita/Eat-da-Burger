@@ -1,7 +1,7 @@
 {
-  "name": "burger",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "Node.js, MySQL, Express.js, Handlebars.js homework assignment - full-stack restaurant application.",
+  "description": "Node.js, MySQL, Express.js, Handlebars.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karamui/burger.git"
+    "url": "git+https://github.com/carolunita/Eat-da-Burger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karamui/burger/issues"
+    "url": "https://github.com/carolunita/Eat-da-Burger/issues"
   },
-  "homepage": "https://github.com/karamui/burger#readme",
+  "homepage": "https://github.com/carolunita/Eat-da-Burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.16.0"
   }
 }
