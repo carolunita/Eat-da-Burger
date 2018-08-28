@@ -2,10 +2,10 @@ INSERT INTO
 	burgers (burger_name, devoured)
 VALUES 
 	("THE BOMB", true),
+	("THE SOUL", false,
+    ("THE BANG", true),
     ("THE ATOMIC", true),
-    ("THE MAC", true),
-    ("THE VAULT", true),
-    ("THE SOUL", true),
-    ("THE BANG", true);
+    ("THE MAC", false),
+    ("THE VAULT", false);
     
 SELECT * FROM burgers;
